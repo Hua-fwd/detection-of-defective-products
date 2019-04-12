@@ -1,0 +1,10 @@
+item {
+  name: "0"
+  label: 0
+  display_name: "good"
+}
+item {
+  name: "1"
+  label: 1
+  display_name: "bad"
+}

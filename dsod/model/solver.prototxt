@@ -1,0 +1,27 @@
+train_net: "/home/opt602-1/home-old/hll/ssd/examples/project/dsod/models/train.prototxt"
+test_net: "/home/opt602-1/home-old/hll/ssd/examples/project/dsod/models/test.prototxt"
+test_iter: 50
+test_interval: 1000
+base_lr: 0.10000000149
+display: 30
+max_iter: 20000
+lr_policy: "multistep"
+gamma: 0.10000000149
+momentum: 0.899999976158
+weight_decay: 0.000500000023749
+snapshot: 2000
+snapshot_prefix: "examples/project/dsod/models/DSOD300"
+solver_mode: GPU
+device_id: 0
+debug_info: false
+snapshot_after_train: true
+test_initialization: true
+average_loss: 10
+stepvalue: 3000
+stepvalue: 8000
+stepvalue: 15000
+iter_size: 2
+type: "SGD"
+eval_type: "detection"
+ap_version: "11point"
+
